@@ -1,0 +1,47 @@
+body{
+    margin: 0 180px;
+    padding: 0 20px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#headerExame{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+textarea{
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+label.questions{
+    font-weight: bold;
+}
+
+.boxText{
+    width: 50%;
+}
+
+figure, address{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    width: 50%;
+}
+
+tr,th,td{
+    border: solid 1px black;
+}
+
+#button{
+    
+    text-align: center;
+}

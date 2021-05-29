@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Prova Online</title>
+</head>
+<body>
+    <header>
+       
+        <div id="headerExame">
+            <img src="img/logo.png" alt="">    
+            <h1>Instituto Nacional de Ensino do Brasil - INEBR</h1> 
+        </div>
+        
+        <h2>AV3 - Avaliação Suplementar</h2>
+        <h3>Disciplina: Direito Constitucional III</h3>
+        
+        <form action="actionPage.php" name="formulario" method="POST">
+            
+            <label for="name">Nome</label>
+            <input class="boxText" type="text" id="name" placeholder="Digite seu Nome" maxlength="45"><br><br>
+
+            <label for="idNumber">Matrícula</label>
+            <input type="number" id="idNumber" placeholder="Digite sua Matrícula"><br><br>
+
+            <label for="date">Data</label>
+            <input type="date" id="date" value="2021-05-29" readonly><hr><hr>
+        </form>
+    </header>
+    <main>
+        <section id="question 1">
+            <article>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions" for="caixaDeTexto">
+                        01) Disserte quanto ao conteúdo material da Constituição Brasileira de 1988.(1,0p)
+                    </label><br><br>
+                    <textarea name="caixaDeTexto" id="question1" cols="30" rows="10"></textarea>
+                </form>
+            </article>
+        </section> <br><br>
+
+        <section id="question2">
+           <article>
+            <form action="actionPage.php" name="formulario" method="POST">
+                <label class="questions">
+                    02) Acerca das competências constitucionais dos Municípios, assinale a alternativa incorreta:(1,0p)
+                </label><br><br>
+                
+                <input type="radio" id="alternative1" name="alternativa">
+                 <label for="alternative1">Os Municípios têm competência legislativa suplementar à legislação federal e estadual, no que couber.</label> <br><br>
+    
+                <input type="radio" id="alternative2" name="alternativa">
+                <label for="alternative2">Em razão do pacto federativo brasileiro, os Municípios têm autonomia e soberania, gozando de poderes para auto-organização, autogoverno e autoadministração..</label> <br><br>
+    
+                <input type="radio" id="alternative3" name="alternativa">
+                <label for="alternative3">A criação, organização e supressão de distritos é de competência privativa dos Municípios, observada a legislação estadual.</label> <br><br>     
+               </form>
+           </article>
+        </section><br><br>
+
+        <section id="question3">
+            <article>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions">
+                        03) A Constituição Federal consagrou os Municípios à categoria de entes federativos, ao dispor, em seu artigo 1º, que a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal. Quanto aos Municípios, dentro dessa sistemática adotada pela Carta Magna, marque SOMENTE as alternativas corretas:(1,0p)
+                    </label><br><br>
+                    
+                    
+                    <input type="checkbox" id="multipleAlternative1" name="caixa1">
+                     <label for="multipleAlternative1">Os Municípios possuem âmbitos exclusivos de competências políticas.</label><br><br>
+            
+                    <input type="checkbox" id="multipleAlternative2" name="caixa2">
+                    <label for="multipleAlternative2">Os Municípios são regidos pela lei orgânica, que deverá ser votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, atendidos os princípios e os preceitos estabelecidos na Constituição Federal e na Constituição do respectivo Estado.</label><br><br>
+            
+                    <input type="checkbox" id="multipleAlternative3" name="caixa3">
+                    <label for="multipleAlternative3">Nos Municípios cujas populações sejam superiores a cinquenta mil e que atinjam até oitenta mil habitantes, as Câmaras Municipais de Vereadores deverão ser compostas por no máximo treze vereadores.</label><br><br>
+                 </form>
+            </article>
+        </section><br><br>
+
+        <section id="question4">
+            <article>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions">
+                        04) Veja a charge de Miguel Paiva, publicada no jornal O Estado de São Paulo, em 05/10/1988:(1,0p)
+                    </label><br><br>
+
+                    <figure>
+                        <img src="img/image1.png" alt="Charge sobre Direito Coonstitucional à Moradia, Saúde e Alimentação" title="Charge sobre Direito Coonstitucional à Moradia, Saúde e Alimentação">
+                    </figure> <br><br>
+
+                    <label class="questions">
+                        Considerando a teoria e efetividade dos direitos e garantias fundamentais no Brasil, bem como a temática da charge, assinale a opção correta:
+                    </label><br><br>
+                   
+                    <input type="radio" id="multipleAlternative1" name="alternativa">
+                    <label for="multipleAlternative1">A Constituição Federal brasileira de 1988 prevê que as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata, mas uma parcela dos cidadãos brasileiros não consegue ter acesso sequer aos direitos mais básicos.</label><br><br>
+            
+                    <input type="radio" id="multipleAlternative2" name="alternativa">
+                    <label for="multipleAlternative2">Os tratados e convenções internacionais sobre direitos humanos que forem aprovados pelo processo legislativo ordinário serão equivalentes às emendas constitucionais e terão eficácia plena e imediata a todos os brasileiros.</label><br><br>
+            
+                    <input type="radio" id="multipleAlternative3" name="alternativa">
+                    <label for="multipleAlternative3">Direitos fundamentais de primeira dimensão contemplam os direitos econômicos, sociais e culturais, sendo exemplos a liberdade religiosa e o direito de associação.</label><br><br>
+                </form>
+            </article>
+        </section> <br><br>
+
+        <section id="question5">
+            <article>
+                <label class="questions" for="select">
+                    05) De acordo com a Constituição Federal, a iniciativa popular de projetos de lei de interesse específico do Município, da cidade ou de bairros, ocorrerá através de manifestação de, pelo menos: (1,0p)
+                </label><br><br>
+                
+                <label class="questions">Selecioe a opção correta:</label>
+                <select name="selecao" id="select">
+                    <option value="1% (um por cento) do eleitorado.">1% (um por cento) do eleitorado.</option>
+                    <option value="2% (dois por cento) dos habitantes.">2% (dois por cento) dos habitantes.</option>
+                    <option value="5% (cinco por cento) do eleitorado.">5% (cinco por cento) do eleitorado.</option>
+                </select>
+            </article>
+        </section><br><br>
+
+        <section id="question6">
+            <article>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions" for="number1">
+                        06) Após brutal assassinato de uma Parlamentar do Rio de Janeiro,
+                        Advogados da Associação de Direitos Humanos pretendem movimentar
+                        as instituições públicas para federalizar aquele crime, por entender, que
+                        houve grave violação dos direitos humanos. Assim, indaga-se: O que se entende por federalização dos crimes contra os direitos
+                        humanos?(1,0p)
+                    </label><br><br>
+                    <textarea name="caixaDeTexto" id="question5" cols="30" rows="10"></textarea>
+                </form>
+            </article>
+        </section><br><br>
+
+        <section id="question7">
+            <article>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions">
+                        07) A respeito dos Direitos e Deveres Individuais e Coletivos, assinale a(as) alternativa(s) que NÃO está(estão) de acordo com a Constituição Federal.(1,0p)
+                    </label><br><br>
+                    
+                    
+                    <input type="checkbox" id="multipleAlternative1" name="caixa1">
+                    <label for="multipleAlternative1">As entidades associativas, quando expressamente autorizadas, têm legitimidade para representar seus filiados judicial ou extrajudicialmente.</label><br><br>
+            
+                    <input type="checkbox" id="multipleAlternative2" name="caixa2">
+                    <label for="multipleAlternative2">Todos podem reunir-se pacificamente em locais abertos ao público, desde que não frustrem outra reunião já convocada, sendo apenas exigida prévia autorização da autoridade competente.</label><br><br>
+            
+                    <input type="checkbox" id="multipleAlternative3" name="caixa3">
+                    <label for="multipleAlternative3">Na lei não poderá, em qualquer situação, restringir a publicidade dos atos processuais.</label><br><br>
+                 </form>
+            </article>
+        </section>
+
+        <section id="question8">
+            <article>
+                <p><b>08) Observe o quadro abaixo:(1,0p)</b></p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Competências da União</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                            <td>Propaganda comercial.</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2</td>
+                            <td>Juntas comerciais.</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3</td>
+                            <td>Custas dos serviços forenses.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article><br><br>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions">
+                        Nos termos da Constituição Federal, compete privativamente à União legislar sobre:
+                    </label><br><br>
+                    
+                    <input type="radio" id="alternative1" name="alternativa">
+                     <label for="alternative1">Item 1.</label> <br><br>
+        
+                    <input type="radio" id="alternative2" name="alternativa">
+                    <label for="alternative2">Item 2.</label> <br><br>
+        
+                    <input type="radio" id="alternative3" name="alternativa">
+                    <label for="alternative3">Item 3.</label> <br><br>     
+                   </form>
+            </article>
+        </section><br><br>
+
+        <section id="question9">
+            <article>
+                <form action="actionPage.php" name="formulario" method="POST">
+                    <label class="questions">09) Estudo Dirigido de Caso referente às dimensões do Direito Constitucional Brasileiro. A atividade proposta foi elaborar um texto discursivo sobre a evolução desses direitos fundamentais na prática de nossa sociedade ao longo dos anos (2,0p)</label><br><br>
+                    <label for="sendFile">Enviar Arquivo</label>
+                    <input type="file" id="sendFile" name="enviarArquivo" accept="msword/doc,application/pdf">
+                </form>
+            </article>
+        </section><br><br>
+
+        <section id="submitExame">
+            <article>
+                <div id="button">
+                    <button>Enviar Avaliação</button>
+                </div>
+            </article>
+        </section><br><br>
+    </main>
+    <footer>
+        <address>
+            Instituto Nacional de Ensino do Brasil - INEBR <br>
+            Rua Otaviano Costa, 1513, Bloco B - Centro, Rio de Janeiro, RJ <br>
+            CEP: 26014-96 <br>
+            Tel: (21) 2254-6451 
+        </address>
+    </footer>    
+</body>
+</html>
